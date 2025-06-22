@@ -26,4 +26,3 @@ def send_signal():
     )
 
     bot.send_message(CHAT_ID, message)
-    return 'تم الإرسال', 200
