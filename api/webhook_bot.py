@@ -25,7 +25,6 @@ def send_signal():
     )
 
     bot.send_message(CHAT_ID, message)
-    return 'تم الإرسال', 200
+    
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+# لا تقم بتشغيل السيرفر هنا لأن Vercel يتكفل بذلك
