@@ -26,3 +26,4 @@ def send_signal():
     )
 
     bot.send_message(CHAT_ID, message)
+    return '', 200
