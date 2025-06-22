@@ -25,6 +25,6 @@ def send_signal():
     )
 
     bot.send_message(CHAT_ID, message)
-    
+    return 'OK', 200
 
 # لا تقم بتشغيل السيرفر هنا لأن Vercel يتكفل بذلك
